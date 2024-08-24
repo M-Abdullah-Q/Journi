@@ -1,0 +1,21 @@
+{
+  "name": "journi",
+  "version": "1.0.0",
+  "description": "This is a simple journal management cli",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "journi": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^10.1.8",
+    "nanospinner": "^1.1.0"
+  }
+}
