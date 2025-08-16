@@ -1,6 +1,6 @@
 {
   "name": "journi",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "This is a simple journal management cli",
   "main": "bin/index.js",
   "type": "module",
@@ -15,6 +15,9 @@
   },
   "dependencies": {
     "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.8.2",
+    "gradient-string": "^3.0.0",
     "inquirer": "^10.1.8",
     "nanospinner": "^1.1.0"
   }
